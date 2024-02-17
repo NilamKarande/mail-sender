@@ -4,8 +4,8 @@ from flask_mail import Mail,Message
 app=Flask(__name__)
 app.config['MAIL_SERVER']='smtp.gmail.com'
 app.config['MAIL_PORT']=465
-app.config['MAIL_USERNAME']='nilam@devangles.com'
-app.config['MAIL_PASSWORD']='Nilam@1497'
+app.config['MAIL_USERNAME']='example@gmail.com'
+app.config['MAIL_PASSWORD']='12345'
 app.config['MAIL_USE_TLS']=False
 app.config['MAIL_USE_SSL']=True
 mail=Mail(app)
